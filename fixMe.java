@@ -7,7 +7,7 @@ public class fixMe {
     static final String startStr = "\n****start of the program****";
     final String endStr = "\n****end of the program****";
 
-    public void main(String[] arg) {
+    public static void main(String[] arg) {
         printMessage(startStr);
         Square s = new Square(100);
         System.out.println(s.computePerimeter());
